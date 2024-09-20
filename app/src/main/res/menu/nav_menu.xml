@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/nav_inicio"
+            android:title="Inicio"/>
+
+        <item
+            android:id="@+id/nav_tarefas"
+            android:icon="@drawable/nav_tarefas"
+            android:title="Cadastrar Tarefas"/>
+
+        <item
+            android:id="@+id/nav_tarefasconcluidas"
+            android:icon="@drawable/nav_tarefasconcluidas"
+            android:title="Tarefas Concluídas"/>
+
+        <item
+            android:id="@+id/nav_grupos"
+            android:icon="@drawable/nav_grupos"
+            android:title="Grupos de Tarefas"/>
+
+
+
+
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/tv_tituloGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="12dp"
+        android:text="TextView"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_descGrupo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_descGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btDeletar"
+        android:layout_width="47dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/excluir"
+        android:backgroundTint="@color/my_red"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btAddTarefas"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="20dp"
+        android:text=""
+        android:background="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="@+id/btDeletar"
+        app:layout_constraintEnd_toStartOf="@+id/btDeletar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
